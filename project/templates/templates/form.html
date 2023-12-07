@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href={% static "css/style.css" %}>
+    <title>Form</title>
+</head>
+<body>
+<form class="form_header">
+    <h1 class="logo">Регистрация</h1>
+    <label for="" class="Fio">ФИО</label>
+    <input type="text" class="text">
+    <br>
+    <label for="" class="email">Email</label>
+    <input type="text" class="text">
+
+    <p>Ваш пол:</p>
+
+    <label for="">М</label>
+    <input type="radio" name="name" class="radio">
+    <label for="">Ж</label>
+    <input type="radio" name="name" class="radio">
+</form>
+
+</body>
+</html>
